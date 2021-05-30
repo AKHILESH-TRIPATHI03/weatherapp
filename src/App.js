@@ -27,7 +27,6 @@ function App() {
             onChange={(event) => {
               setSearch(event.target.value);
             }}
-            onKeyPress={setCity}
           />
           {!city ? (
             <p>no data found</p>
